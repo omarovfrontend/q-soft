@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Q-SOFT</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./js/plugins/lightslider/css/lightslider.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <header class="page-header">
+      <div class="container page-header__inner">
+        <img
+          src="./images/logo.svg"
+          class="page-header__logo"
+          alt="logo"
+        />
+
+        <input
+          type="search"
+          placeholder="Найти на сайте..."
+          class="page-header__search"
+        />
+
+        <div class="page-header__contacts">
+          <a href="tel:89996660013" class="page-header__phone">8 (999) 666-00-13</a>
+          <span class="page-header__operating-mode">Работаем с 8 до 23</span>
+        </div>
+
+        <a href="#" class="page-header__login-btn btn">
+          Войти
+        </a>
+      </div>
+    </header>
+
+    <nav class="main-menu">
+      <div class="container">
+        <button type="button" class="main-menu__toggle">Меню</button>
+        <ul class="main-menu__list">
+          <li class="main-menu__item">
+          <a href="#" class="main-menu__link">Акции</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Товары</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Доставка и оплата</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Гарантия</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">О нас</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="#" class="main-menu__link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="page-content"> 
+      <section class="popular-products">
+        <div class="container">
+          <h2 class="section-title">Популярные товары</h2>
+  
+          <ul class="popular-products-slider">
+            <li class="popular-products-slider__item">
+              <div class="product">
+                <div class="product__image-wrapper">
+                  <ul class="product__tags">
+                    <li class="product__tag">
+                      <a href="#" class="product__tag-link product__tag-link_stock">
+                        Акция
+                      </a>
+                    </li>
+                    <li class="product__tag">
+                      <a href="#" class="product__tag-link product__tag-link_hit">
+                        Хит
+                      </a>
+                    </li>
+                    <li class="product__tag">
+                      <a href="#" class="product__tag-link product__tag-link_best-price">
+                        Лучшая цена
+                      </a>
+                    </li>
+                  </ul>
+                  <img src="./images/products/product1.jpg" class="product__image" alt="product">
+                </div>
+  
+                <div class="product__content">
+                  <h3 class="product__name">
+                    <a href="" class="product__name-link">
+                      Цветок, который стоит на столе, такой загадочный.
+                    </a>
+                  </h3>
+                  <p class="product__description">
+                    А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя
+                  </p>
+                </div>
+  
+                <div class="product__actions">
+                  <div>
+                    <span class="product__price-old">1 499 ₽</span>
+                    <span class="product__price">799 ₽</span>
+                  </div>
+                  <button type="button" class="product__add-to-card"></button>
+                </div>
+              </div>
+            </li>
+  
+            <li class="popular-products-slider__item">
+              <div class="product">
+                <div class="product__image-wrapper">
+                  <ul class="product__tags">
+                    <li class="product__tag">
+                      <a href="#" class="product__tag-link product__tag-link_stock">
+                        Акция
+                      </a>
+                    </li>
+                  </ul>
+                  <img src="./images/products/product2.jpg" class="product__image" alt="product">
+                </div>
+  
+                <div class="product__content">
+                  <h3 class="product__name">
+                    <a href="" class="product__name-link">
+                      Набор юного инстаблогера
+                    </a>
+                  </h3>
+                  <p class="product__description">
+                    Посмотрите на него.
+                    Он покажет всем какой вы классный и творческий. Главное не забыть посидеть на подоконнике с бокаль...
+                  </p>
+                </div>
+  
+                <div class="product__actions">
+                  <div>
+                    <span class="product__price">13 666 ₽</span>
+                  </div>
+                  <button type="button" class="product__add-to-card"></button>
+                </div>
+              </div>
+            </li>
+  
+            <li class="popular-products-slider__item">
+              <div class="product">
+                <div class="product__image-wrapper">
+                  <ul class="product__tags">
+                    <li class="product__tag">
+                      <a href="#" class="product__tag-link product__tag-link_hit">
+                        Хит
+                      </a>
+                    </li>
+                  </ul>
+                  <img src="./images/products/product3.jpg" class="product__image" alt="product">
+                </div>
+  
+                <div class="product__content">
+                  <h3 class="product__name">
+                    <a href="" class="product__name-link">
+                      Лампа. Просто лампа.
+                    </a>
+                  </h3>
+                  <p class="product__description">
+                    В паре с загадочным цветком добавит загадочности вашему интерьеру
+                  </p>
+                </div>
+  
+                <div class="product__actions">
+                  <div>
+                    <span class="product__price-old">2 699 ₽</span>
+                    <span class="product__price">1 789 ₽</span>
+                  </div>
+                  <button type="button" class="product__add-to-card"></button>
+                </div>
+              </div>
+            </li>
+  
+            <li class="popular-products-slider__item">
+              <div class="product">
+                <div class="product__image-wrapper">
+                  <ul class="product__tags">
+                    <li class="product__tag">
+                      <a href="#" class="product__tag-link product__tag-link_stock">
+                        Акция
+                      </a>
+                    </li>
+                    <li class="product__tag">
+                      <a href="#" class="product__tag-link product__tag-link_hit">
+                        Хит
+                      </a>
+                    </li>
+                  </ul>
+                  <img src="./images/products/product4.jpg" class="product__image" alt="product">
+                </div>
+  
+                <div class="product__content">
+                  <h3 class="product__name">
+                    <a href="" class="product__name-link">
+                      Классные деревянные минималистичные часы с...
+                    </a>
+                  </h3>
+                  <p class="product__description">
+                    Все в ту же копилку загдочности вашего интерьера и вашей натуры
+                  </p>
+                </div>
+  
+                <div class="product__actions">
+                  <div>
+                    <span class="product__price-old">2 199 ₽</span>
+                    <span class="product__price">1 899 ₽</span>
+                  </div>
+                  <button type="button" class="product__add-to-card"></button>
+                </div>
+              </div>
+            </li>
+          </ul>
+  
+          <a href="#" class="btn-more">Смотреть каталог</a>
+        </div>
+      </section>
+  
+      <section class="news">
+        <div class="container">
+          <h2 class="section-title">Новости компании</h2>
+          <a href="#" class="btn-more">Смотреть все новости</a>
+        </div>
+      </section>
+  
+      <section class="our-partners">
+        <div class="container">
+          <h2 class="section-title">Наши партнёры</h2>
+  
+          <ul class="our-partners__list">
+            <li class="our-partners__item">
+              <a href="#" class="our-partners__link">
+                <img
+                  src="./images/henkel.png"
+                  alt="henkel"
+                  class="our-partners__image"
+                />
+              </a>
+            </li>
+  
+            <li class="our-partners__item">
+              <a href="#" class="our-partners__link">
+                <img
+                  src="./images/john-deere.png"
+                  alt="john-deere"
+                  class="our-partners__image"
+                />
+              </a>
+            </li>
+  
+            <li class="our-partners__item">
+              <a href="#" class="our-partners__link">
+                <img
+                  src="./images/mac.png"
+                  alt="mac"
+                  class="our-partners__image"
+                />
+              </a>
+            </li>
+  
+            <li class="our-partners__item">
+              <a href="#" class="our-partners__link">
+                <img
+                  src="./images/ikea.png"
+                  alt="ikea"
+                  class="our-partners__image"
+                />
+              </a>
+            </li>
+  
+            <li class="our-partners__item">
+              <a href="#" class="our-partners__link">
+                <img
+                  src="./images/reebok.png"
+                  alt="reebok"
+                  class="our-partners__image"
+                />
+              </a>
+            </li>
+  
+            <li class="our-partners__item">
+              <a href="#" class="our-partners__link">
+                <img
+                  src="./images/nike.png"
+                  alt="nike"
+                  class="our-partners__image"
+                />
+              </a>
+            </li>
+  
+            <li class="our-partners__item">
+              <a href="#" class="our-partners__link">
+                <img
+                  src="./images/caterpillar.png"
+                  alt="caterpillar"
+                  class="our-partners__image"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container page-footer__inner">
+        <img src="./images/footer-logo.svg" class="page-footer__logo" alt="logo">
+
+        <ul class="page-footer__social">
+          <li class="page-footer__social-item">
+            <a href="" class="page-footer__social-link">
+              <img src="" alt="" class="page-footer__social-image">
+            </a>
+          </li>
+          <li class="page-footer__social-item">
+            <a href="" class="page-footer__social-link">
+              <img src="" alt="" class="page-footer__social-image">
+            </a>
+          </li>
+        </ul>
+
+        <ul class="page-footer__menu">
+          <li class="page-footer__menu-item">
+            <a href="#" class="page-footer__menu-link">Правила</a>
+          </li>
+          <li class="page-footer__menu-item">
+            <a href="#" class="page-footer__menu-link">Документы</a>
+          </li>
+          <li class="page-footer__menu-item">
+            <a href="#" class="page-footer__menu-link">Политика конфиденциальности</a>
+          </li>
+        </ul>
+
+        <button type="button" class="page-footer__call-btn btn">Заказать звонок</button>
+      </div>
+    </footer>
+
+    <div class="the-loader">
+      <div class="the-loader__circle"></div>
+      <img
+        src="./images/logo-animate.svg"
+        class="the-loader__logo"
+        alt="logo"
+      />
+      <div class="the-loader__section the-loader__section_left"></div>
+      <div class="the-loader__section the-loader__section_right"></div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="./js/plugins/lightslider/js/lightslider.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

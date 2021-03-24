@@ -139,15 +139,19 @@ a:active {
 .page-header__search {
     width: 660px;
     height: 40px;
-    padding: 9px 20px;
+    padding: 9px 35px 9px 20px;
     border: 1px solid transparent;
-    background-color: var(--color-gray);
+    background-color: #fafafa;
     border-radius: 5px;
-    color: #bbc4d5;
+    color: #121920;
     outline: none;
     background-image: url('../images/loop.svg');
     background-repeat: no-repeat;
     background-position: calc(100% - 20px) center;
+}
+
+.page-header__search::placeholder {
+    color: #BBC4D6;
 }
 
 .page-header__search:focus {
@@ -163,13 +167,14 @@ a:active {
     display: block;
     color: var(--color-main);
     text-decoration: none;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .page-header__operating-mode {
     display: block;
     color: #bbc4d6;
-    line-height: 20px;
+    line-height: 22px;
 }
 /*page-header end*/
 
@@ -196,6 +201,7 @@ a:active {
 .main-menu__list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -205,7 +211,8 @@ a:active {
 
 .main-menu__link {
     display: block;
-    line-height: 30px;
+    line-height: 28px;
+    font-size: 18px;
 }
 /*main-menu end*/
 
@@ -231,6 +238,7 @@ a:active {
 .product {
     width: 270px;
     border: 1px solid #EBEBF1;
+    border-radius: 5px;
 }
 
 .product__image-wrapper {
@@ -289,6 +297,7 @@ a:active {
     padding-right: 10px;
     padding-left: 10px;
     line-height: 22px;
+    color: #768298;
 }
 
 .product__actions {
@@ -402,25 +411,29 @@ a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.page-footer__logo {
+    flex-wrap: wrap;
 }
 
 .page-footer__social {
+    display: flex;
+    list-style: none;
+    border-left: 1px solid #BBC4D6;
+    border-right: 1px solid #BBC4D6;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .page-footer__social-item {
+    margin-right: 20px;
 }
 
-.page-footer__social-link {
-}
-
-.page-footer__social-image {
+.page-footer__social-item:last-child {
+    margin-right: 0;
 }
 
 .page-footer__menu {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 

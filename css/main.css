@@ -431,6 +431,17 @@ a:active {
     margin-right: 0;
 }
 
+.page-footer__logo,
+.page-footer__social-image {
+    opacity: .5;
+}
+
+.page-footer__logo:hover,
+.page-footer__social-image:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
 .page-footer__menu {
     display: flex;
     flex-wrap: wrap;
